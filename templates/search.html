@@ -5,7 +5,7 @@
     <title>Результаты поиска по имени</title>
 </head>
 <body>
-Найдено кандидатов {{ quantity }}
+Найдено кандидатов {{ quantity }}<br>
 {% for candidate in candidates %}
 <a href="/candidate/{{candidate['id']}}">{{candidate['name']}}</a>
 <br>
